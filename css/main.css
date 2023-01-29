@@ -2,6 +2,48 @@
     /* A ne pas oublier*/
     box-sizing: border-box;
 }
+/******************************
+REGLES Générals
+******************************/
+
+body{
+  font-family: Verdana;
+    font-weight: normal;
+    font-size: 120%;
+    line-height: 1.4;
+    color: black;
+    background-color: white;
+}
+
+a{
+    color: #00A24B;
+}
+
+a:hover{
+    color:#E8A062;
+}
+
+h1 {
+    font-family: Georgia, Serif;
+    color: #FDC032;
+    font-size: 4rem;
+    line-height: 0.9;
+;
+
+}
+
+h2{
+    font-family: Georgia;
+    font-size: 2.5rem;
+    margin: 60px 0 20px 0;
+}
+
+p{
+    line-height: 1.6;
+}
+/********************
+En tête
+*********************/
 
 header{
     background-color: black;
@@ -14,9 +56,97 @@ header{
     text-align: center;
     margin: auto;
 }
+/**********************
+contenue principale
+**********************/
 
 main{
     padding: 20px;
     margin: 0 auto;
     max-width: 600px;
 }
+
+.pintroduction{
+font-style: italic;
+    text-transform: uppercase;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    max-width: 95%;
+    margin: 40px auto 40px auto;
+}
+li{
+background-color: #E8A062;
+    color: white;
+    padding:10px 40px 10px 40px;
+}
+
+.premierbordue{
+    border-radius: 30px 30px 0 0;
+}
+
+.deuximebordure{
+    border-radius: 0 0 30px 30px ;
+}
+
+.troisiemebordure{
+    border-radius: 30px 30px 0 0;
+}
+
+.quatriemebordure{
+    border-radius: 0 0 30px 30px ;
+}
+
+div{
+    text-align: center;
+}
+
+.return{
+    text-align: center;
+}
+
+li:nth-child(2){
+    background-color: #823922;
+    border-top: 5px solid #FDC032;
+    border-bottom:10px solid #00A24B ;
+}
+
+li:nth-child(4){
+    background-color: #823922;
+    border-top: 5px solid #FDC032;
+    border-bottom:10px solid #00A24B ;
+}
+
+li:nth-child(6){
+    background-color: #823922;
+    border-top: 5px solid #FDC032;
+    border-bottom:10px solid #00A24B ;
+}
+
+li:last-child{
+    background-color: #E8A062;
+    border-top: 5px solid #E8A062;
+    border-bottom: #E8A062 10px solid;
+}
+
+/*********************
+pied de page
+********************/
+
+footer{
+    background-color:#823922;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 40px auto;
+    max-width: 400px;
+    min-height: 50px;
+    border-top: #E8A062 solid 30px;
+    border-bottom: #E8A062 solid 30px;
+    border-radius: 30px;
+}
+
+
+
+
