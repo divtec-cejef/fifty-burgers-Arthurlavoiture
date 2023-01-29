@@ -1,0 +1,22 @@
+* {
+    /* A ne pas oublier*/
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    margin: auto;
+    display: flex;
+}
+
+.image1{
+    max-width: 160px;
+    text-align: center;
+    margin: auto;
+}
+
+main{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
